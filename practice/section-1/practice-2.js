@@ -7,7 +7,7 @@ function collectSameElements(collectionA, collectionB) {
   for(var i=0;i<collectionA.length;i++){
     for(var k=0;k<collectionB[0].length;k++){
       if(collectionA[i]==collectionB[0][k]){
-        result.push(collectionB[0][k]);
+        result.push(collectionA[i]);
       }
     }
   }
